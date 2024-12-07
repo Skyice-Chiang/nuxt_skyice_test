@@ -1,0 +1,1 @@
+import{r as o,u as c,c as r,a as s,t as e,f as a,o as l}from"./UTwMi2gE.js";const _={class:"films"},p={__name:"[id]",setup(i){const t=o("我是films裡的作品詳細資訊"),{t:n}=c();return(m,u)=>(l(),r("div",_,[s("h1",null,e(a(t)),1),s("p",null,e(a(n)("message")),1)]))}};export{p as default};
