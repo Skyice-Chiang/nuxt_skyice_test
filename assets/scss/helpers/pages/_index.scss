@@ -1,0 +1,30 @@
+.index {
+  // height: 100vh;
+  background: linear-gradient(#345b94, #326460);
+  h1 {
+    color: #FFF;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: "CactusClassicalSerif";
+    padding: 10px;
+  }
+  h2 {
+    font-family: "LXGWWenKaiMonoTC-Bold";
+    font-weight: bold;
+    font-size: 24px;
+  }
+  .test {
+    text-indent: 101%;
+    white-space: nowrap;
+    overflow: hidden;
+    color: #FFF;
+    width: 100px;
+    height: 100px;
+    background: url('~/assets/images/logo.png');
+    background-size: cover;
+    background-position: center;
+  }
+  @include ipad {
+    background: #000;
+  }
+}

@@ -1,0 +1,12 @@
+// 匯入字體
+@font-face {
+  font-family: 'CactusClassicalSerif';
+  src: url('/fonts/CactusClassicalSerif-Regular.ttf'); // 引用public裡的資料夾 
+  font-display: swap;
+};
+
+@font-face {
+  font-family: 'LXGWWenKaiMonoTC-Bold';
+  src: url('/public/fonts/LXGWWenKaiMonoTC-Bold.ttf');
+  font-display: swap;
+}

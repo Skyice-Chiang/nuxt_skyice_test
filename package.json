@@ -1,0 +1,39 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "deploy": "gh-pages --dotfiles -d .output/public"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^4.4.1",
+    "@nuxt/content": "^2.13.4",
+    "@nuxt/image": "^1.8.1",
+    "@nuxtjs/i18n": "^9.1.0",
+    "@nuxtjs/leaflet": "^1.2.4",
+    "@popperjs/core": "^2.11.8",
+    "@vee-validate/nuxt": "^4.14.7",
+    "@vee-validate/yup": "^4.14.7",
+    "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3",
+    "gapi-script": "^1.2.0",
+    "googleapis": "^144.0.0",
+    "nuxt": "^3.14.1592",
+    "nuxt-swiper": "^2.0.0",
+    "sass": "^1.57.1",
+    "vue": "latest",
+    "vue-router": "latest"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "gh-pages": "^6.2.0",
+    "postcss": "^8.4.49",
+    "postcss-loader": "^8.1.1",
+    "sass-loader": "^16.0.3"
+  }
+}
